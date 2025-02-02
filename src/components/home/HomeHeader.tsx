@@ -2,6 +2,7 @@ import { Icons } from "../common/Icons";
 import { ThemeToggle } from "../common/ThemeToggle";
 import { Button } from "../shadcn/ui/button";
 import { Separator } from "../shadcn/ui/separator";
+import { AuthButton } from "./Auth-Button";
 import { MainNav } from "./MainNav";
 import { MobileNav } from "./MobileNav";
 
@@ -22,7 +23,7 @@ export default function HomeHeader() {
             </Button>
           </div>
 
-          <Button>Login</Button>
+          <AuthButton />
         </nav>
       </div>
     </header>
